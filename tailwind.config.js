@@ -6,6 +6,14 @@ module.exports = {
     './app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
+    fontFamily:{
+      'cursive':['Pacifico','cursisve'],
+      'sacramento':['Sacramento','sacramento'],
+      'kablammo':['kablammo','kablammo'],
+      'tangerine':['Tangerine','tangerine']
+    },
+  
+  theme: {
     extend: {
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
@@ -14,5 +22,7 @@ module.exports = {
       },
     },
   },
+  
   plugins: [],
+  }
 }
